@@ -1,0 +1,22 @@
+body{
+    /* aba */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* abh */
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    /* row */
+    display: flex;
+    justify-content: space-between;
+
+    /* abv */
+    background: transparent url(../img/) repeat top center / co;
+
+}
+
