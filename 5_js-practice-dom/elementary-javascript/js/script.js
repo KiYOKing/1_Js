@@ -25,3 +25,15 @@
 // console.log(document.querySelector('[href="https://www.daily-trial.com/"]').outerHTML);
 
 // document.querySelector("")
+
+document.querySelector("#js-title").innerHTML = "Daily Trial"
+
+const button = document.createElement("a");
+
+button.innerHTML="ログイン"
+
+button.setAttribute("class","btn");
+
+button.setAttribute("href","https://tokyofreelance.jp/")
+
+document.querySelector("#js-btn-wrap").appendChild(button);
