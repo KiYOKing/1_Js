@@ -26,14 +26,16 @@
 
 // document.querySelector("")
 
-document.querySelector("#js-title").innerHTML = "Daily Trial"
+// document.querySelector("#js-title").innerHTML = "Daily Trial"
 
-const button = document.createElement("a");
+// const button = document.createElement("a");
 
-button.innerHTML="ログイン"
+// button.innerHTML="ログイン"
 
-button.setAttribute("class","btn");
+// button.setAttribute("class","btn");
 
-button.setAttribute("href","https://tokyofreelance.jp/")
+// button.setAttribute("href","https://tokyofreelance.jp/")
 
-document.querySelector("#js-btn-wrap").appendChild(button);
+// document.querySelector("#js-btn-wrap").appendChild(button);
+
+document.querySelector("#js-register").click();
