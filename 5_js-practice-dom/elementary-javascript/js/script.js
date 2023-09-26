@@ -38,4 +38,13 @@
 
 // document.querySelector("#js-btn-wrap").appendChild(button);
 
-document.querySelector("#js-register").click();
+
+// document.querySelector("#js-register").click();
+
+// window.onload = function(){
+//     alert("読み込みが完了しました");
+// }
+
+document.querySelector("#js-btn").addEventListener("click",function(){
+    alert("ボタンがクリックされました");
+})
