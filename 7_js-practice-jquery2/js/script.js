@@ -20,3 +20,10 @@ jQuery(".js-accordion").on("click",function(){
 jQuery("#js-button-top").on("click", function(){
     jQuery("html,body").animate({scrollTop:0},1000);
 });
+
+// ドロワーメニューを作ろう
+jQuery("#js-button-drawer").on("click",function(){
+    jQuery(this).toggleClass("is-checked");
+    jQuery("#js-drawer").slideToggle();
+    jQuery("body").toggleClass("is-fixed");
+});
