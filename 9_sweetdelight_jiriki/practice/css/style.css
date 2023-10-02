@@ -46,6 +46,20 @@ ul li a{
   background-color: #a3a0a0;
 }
 
+#js-pagetop{
+  position: fixed;
+  vertical-align:middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background: #fff;
+  color: #333;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+  text-align: center;
+  
+}
 /* fv */
 
 /* common */
