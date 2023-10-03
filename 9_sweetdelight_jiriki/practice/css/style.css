@@ -48,7 +48,6 @@ ul li a{
 
 #js-pagetop{
   position: fixed;
-  vertical-align:middle;
   width: 50px;
   height: 50px;
   border-radius: 100px;
@@ -58,7 +57,7 @@ ul li a{
   right: 50px;
   cursor: pointer;
   text-align: center;
-  
+  padding: 18px 0 22px;
 }
 /* fv */
 
