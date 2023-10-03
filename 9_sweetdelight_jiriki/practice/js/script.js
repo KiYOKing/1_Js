@@ -18,4 +18,18 @@ $(function(){
         }, 500);
         return false;
     });
+
+    $('ol li a').click(function(){
+        var imgSrc= $(this).children().attr('src');
+        $('.bigimg').children().attr('src',imgSrc);
+        $('.modal').fadeIn();
+        $('body,html').css('overflow-y','hidden');
+        return false
+    });
+
+    $('body,html').click(function(){
+        $('.modal').fadeOut();
+        $('body,html').css('overflow-y','visible');
+        return false
+    });
 });
